@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Firm Invite component creates and checks snapshot of FirmInvite component html 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid lightgray",
+      "display": "block",
+      "fontFamily": "Arial, sans-serif",
+      "marginBottom": "20px",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "padding": "20px",
+      "textAlign": "center",
+      "width": "500px",
+    }
+  }
+>
+  <table
+    align="center"
+    border="0"
+    cellPadding={0}
+    cellSpacing={0}
+    className="firmInvitation"
+    valign="top"
+    width="500px"
+  >
+    <tbody>
+      <tr>
+        <td
+          align="left"
+        >
+          <p>
+            You have been added to 
+            Example Firm
+            's team on Prolaera!
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td
+          align="left"
+        >
+          <p>
+            Your account is waiting for you and there are only a couple quick steps to complete.
+          </p>
+          <ol>
+            <li>
+              Click the button below to register your account
+            </li>
+            <li>
+              On the registration page simply enter a password for your new account and click "Register".
+            </li>
+          </ol>
+          <p>
+            That's it! You're ready to explore the new tools and resources you have access to.
+          </p>
+          <div
+            className="buttonContainer"
+            style={
+              Object {
+                "padding": "20px 0px 20px 0px",
+                "textAlign": "center",
+                "width": "100%",
+              }
+            }
+          >
+            <a
+              className="accountButton"
+              href="www.google.com/jane@doe.com"
+              style={
+                Object {
+                  "backgroundColor": "#68B63E",
+                  "color": "white",
+                  "maxWidth": "200px",
+                  "padding": "14px 14px 14px 14px",
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Create My Account
+            </a>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
