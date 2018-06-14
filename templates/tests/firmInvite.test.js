@@ -30,9 +30,15 @@ describe('Firm Invite component', () => {
     expect(
       wrapper.contains(
         <a
-          href="https://app.prolaera.com/#/registration?email=/firm@invite.com"
           className="accountButton"
-          style="max-width:200px;background-color:#68B63E;padding:14px 14px 14px 14px;color:white;text-decoration:none"
+          href="https://app.prolaera.com/#/registration?email=/firm@invite.com"
+          style={{
+            backgroundColor: '#68B63E',
+            color: 'white',
+            maxWidth: '200px',
+            padding: '14px 14px 14px 14px',
+            textDecoration: 'none'
+          }}
         >
           Create My Account
         </a>
@@ -49,7 +55,17 @@ describe('Firm Invite component', () => {
     const wrapper = shallow(<FirmInvite buttonLink={'https://www.google.com'} />);
     expect(
       wrapper.contains(
-        <a href="https://www.google.com/firm@invite.com" className="button">
+        <a
+          className="accountButton"
+          href="https://www.google.com/firm@invite.com"
+          style={{
+            backgroundColor: '#68B63E',
+            color: 'white',
+            maxWidth: '200px',
+            padding: '14px 14px 14px 14px',
+            textDecoration: 'none'
+          }}
+        >
           Create My Account
         </a>
       )
@@ -60,7 +76,17 @@ describe('Firm Invite component', () => {
     const wrapper = shallow(<FirmInvite userEmail={'john@doe.com'} />);
     expect(
       wrapper.contains(
-        <a href="https://app.prolaera.com/#/registration?email=/john@doe.com" className="button">
+        <a
+          className="accountButton"
+          href="https://app.prolaera.com/#/registration?email=/john@doe.com"
+          style={{
+            backgroundColor: '#68B63E',
+            color: 'white',
+            maxWidth: '200px',
+            padding: '14px 14px 14px 14px',
+            textDecoration: 'none'
+          }}
+        >
           Create My Account
         </a>
       )
