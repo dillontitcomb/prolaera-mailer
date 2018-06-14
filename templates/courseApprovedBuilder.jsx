@@ -1,0 +1,24 @@
+import React from 'react';
+import { Email, renderEmail } from 'react-html-email';
+import CourseApprovedSubHeader from '../components/courseApproved/courseApprovedSubHeader';
+import Footer from '../components/footer';
+import builderHeader from '../components/header';
+import css from './templateCSS.js';
+
+const courseApprovedBuilder = async imageUrl => {
+  try {
+    const Header = await builderHeader(imageUrl);
+    return renderEmail(
+      <Email title="Course approved on Prolaera" headCSS={css}>
+        <Header />
+        <CourseApprovedSubHeader />
+        <CourseApproved />
+        <Footer />
+      </Email>
+    );
+  } catch (error) {
+    throw error;
+  }
+};
+
+export default courseApprovedBuilder;
