@@ -1,5 +1,6 @@
 import React from 'react';
 import { Email, renderEmail } from 'react-html-email';
+import CourseApproved from '../components/courseApproved/courseApproved';
 import CourseApprovedSubHeader from '../components/courseApproved/courseApprovedSubHeader';
 import Footer from '../components/footer';
 import builderHeader from '../components/header';

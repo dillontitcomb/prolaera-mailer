@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CourseApproved component creates and checks snapshot of CourseApproved component html 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid lightgray",
+      "display": "block",
+      "fontFamily": "Arial, sans-serif",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "padding": "20px",
+      "textAlign": "center",
+      "width": "500px",
+    }
+  }
+>
+  <table
+    align="center"
+    border="0"
+    cellPadding={0}
+    cellSpacing={0}
+    className="courseApproved"
+    valign="top"
+    width="500px"
+  >
+    <tbody>
+      <tr>
+        <td
+          align="left"
+        >
+          <p>
+            Test Course
+             has been reviewed and approved by an admin at your firm and is now in the marketplace!
+          </p>
+          <div
+            className="buttonContainer"
+            style={
+              Object {
+                "padding": "20px 0px 20px 0px",
+                "textAlign": "center",
+                "width": "100%",
+              }
+            }
+          >
+            <a
+              className="accountButton"
+              href="www.testLink.com/test@email.com"
+              style={
+                Object {
+                  "backgroundColor": "#68B63E",
+                  "color": "white",
+                  "maxWidth": "200px",
+                  "padding": "14px 14px 14px 14px",
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Log In
+            </a>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

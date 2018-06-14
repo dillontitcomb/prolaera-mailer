@@ -44,7 +44,7 @@ class CourseApproved extends React.Component {
                   textDecoration: 'none'
                 }}
               >
-                Create My Account
+                Log In
               </a>
             </div>
           </Item>
