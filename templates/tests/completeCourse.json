@@ -1,0 +1,51 @@
+{
+  "access": [222222],
+  "active": true,
+  "adminApproved": true,
+  "adminReview": false,
+  "archive": false,
+  "author": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+  "by": "Evan Hiner",
+  "category_id": "92a86735-5fc7-4eb6-a42d-250b953f4dd2",
+  "company_id": 222222,
+  "course_id": "6ef58c8e-6ab7-4798-bd21-1c8fa8bcb137",
+  "courseAudience": "Accountants and auditors who prepare financial statements",
+  "delivery_method": 0,
+  "form_id": "NASBA_Live",
+  "hours": [
+    {
+      "category_id": "92a86735-5fc7-4eb6-a42d-250b953f4dd2",
+      "credits": 1,
+      "subject_area": "Accounting"
+    }
+  ],
+  "hours_basic": {},
+  "instructors": [
+    {
+      "$$hashKey": "object:1140",
+      "email": "evan@prolaera.com",
+      "first": "Evan",
+      "last": "Hiner",
+      "time": 1
+    }
+  ],
+  "level": "Basic",
+  "modules": ["0f0944c1-6631-4339-b185-7e35180b2a74"],
+  "name": "ASC 606 (Self-Study)",
+  "objectives": "<ol><li>One</li><li>Two</li><li>Three</li></ol>",
+  "payee": "222222",
+  "prep": "<p>None</p>",
+  "prerequisites": "<p>None</p>",
+  "questions": ["2e0eab9a-9b71-49b2-b1f1-bbbb6cd48ca4"],
+  "sponsor":
+    "{\"company_id\":222222,\"addressOne\":\"444 Castro St\",\"zip\":\"94041\",\"logoUrl\":\"https://prolaera.s3-us-west-2.amazonaws.com/sponsors/def4c2bf-0485-4eda-9b2b-0e4055ef0dbe.logo.png\",\"sponsors\":{\"name\":\"BowmanKnopp\",\"qas\":\"123456\",\"texas\":\"123456\",\"nationalRegistry\":\"123456\"},\"addressTwo\":\"Suite 1200\",\"sponsorStatement\":\"In accordance with the standards of the National Registry of CPE Sponsors and as set forth in Circular 230 Section 10.6, credits have been granted based on a 50-minute hour. State boards of accountancy, state bars, and other state regulatory bodies have final authority on the acceptance of courses for continuing education credit. Please check with your state board regarding applicability of this course towards your continuing education requirement.\",\"name\":\"BowmanKnopp\",\"style\":\"portrait\",\"state\":\"California\",\"sponsor_id\":\"def4c2bf-0485-4eda-9b2b-0e4055ef0dbe\",\"city\":\"Mountain View\",\"signature\":{\"name\":\"Jane Doe\",\"title\":\"Director, Learning & Development\",\"imageUrl\":\"https://prolaera.s3-us-west-2.amazonaws.com/sponsors/def4c2bf-0485-4eda-9b2b-0e4055ef0dbe.signature.jpg\"},\"active\":true,\"archived\":false}",
+  "submitted": true,
+  "summary": "<p>This is a course summary.</p>",
+  "updates": [
+    {
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1523571022113
+    }
+  ],
+  "vendor": "222222"
+}
