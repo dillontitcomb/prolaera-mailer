@@ -7,6 +7,7 @@ exports[`CourseApproved component creates and checks snapshot of CourseApproved 
       "border": "1px solid lightgray",
       "display": "block",
       "fontFamily": "Arial, sans-serif",
+      "marginBottom": "20px",
       "marginLeft": "auto",
       "marginRight": "auto",
       "padding": "20px",
@@ -30,7 +31,7 @@ exports[`CourseApproved component creates and checks snapshot of CourseApproved 
           align="left"
         >
           <p>
-            Test Course
+            Tax Preparation 102
              has been reviewed and approved by an admin at your firm and is now in the marketplace!
           </p>
           <div
@@ -45,7 +46,7 @@ exports[`CourseApproved component creates and checks snapshot of CourseApproved 
           >
             <a
               className="accountButton"
-              href="www.testLink.com/test@email.com"
+              href="www.exampleButtonLink.com/test@email.com"
               style={
                 Object {
                   "backgroundColor": "#68B63E",

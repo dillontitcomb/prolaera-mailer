@@ -6,14 +6,14 @@ import Footer from '../components/footer';
 import builderHeader from '../components/header';
 import css from './templateCSS.js';
 
-const courseApprovedBuilder = async imageUrl => {
+const courseApprovedBuilder = async (imageUrl, completeUser, completeCourse) => {
   try {
     const Header = await builderHeader(imageUrl);
     return renderEmail(
       <Email title="Course approved on Prolaera" headCSS={css}>
         <Header />
         <CourseApprovedSubHeader />
-        <CourseApproved />
+        <CourseApproved {...completeUser} {...completeCourse} />
         <Footer />
       </Email>
     );

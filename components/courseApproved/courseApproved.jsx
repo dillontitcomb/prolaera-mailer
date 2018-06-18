@@ -3,11 +3,7 @@ import { Box, Item } from 'react-html-email';
 
 class CourseApproved extends React.Component {
   render() {
-    const {
-      courseName = 'Prolaera Training Course',
-      buttonLink = 'www.google.com',
-      userEmail = 'jane@doe.com'
-    } = this.props;
+    const { buttonLink = 'www.exampleButtonLink.com', name = '', email = '' } = this.props;
 
     return (
       <div
@@ -19,12 +15,13 @@ class CourseApproved extends React.Component {
           border: '1px solid lightgray',
           width: '500px',
           padding: '20px',
-          fontFamily: 'Arial, sans-serif'
+          fontFamily: 'Arial, sans-serif',
+          marginBottom: '20px'
         }}
       >
         <Box className={'courseApproved'} align="center" width="500px">
           <Item align="left">
-            <p>{courseName} has been reviewed and approved by an admin at your firm and is now in the marketplace!</p>
+            <p>{name} has been reviewed and approved by an admin at your firm and is now in the marketplace!</p>
             <div
               className="buttonContainer"
               style={{
@@ -34,7 +31,7 @@ class CourseApproved extends React.Component {
               }}
             >
               <a
-                href={buttonLink + '/' + userEmail}
+                href={buttonLink + '/' + email}
                 className="accountButton"
                 style={{
                   maxWidth: '200px',
