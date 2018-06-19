@@ -11,12 +11,12 @@ class InviteSubHeader extends React.Component {
           display: 'block',
           marginLeft: 'auto',
           marginRight: 'auto',
-          width: '500px',
+          width: '540px',
           fontFamily: 'Arial, sans-serif',
-          padding: '20px'
+          padding: '20px 0px 20px 0px'
         }}
       >
-        <Box className={'subHeader'} align="center" width="500px">
+        <Box className={'subHeader'} align="center" width="100%">
           <Item>
             <table
               id={'subHeaderTable'}
