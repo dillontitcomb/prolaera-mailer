@@ -3,11 +3,7 @@ import { Box, Item } from 'react-html-email';
 
 class FirmInvite extends React.Component {
   render() {
-    const {
-      companyName = 'Generic CPA Firm',
-      buttonLink = 'https://app.prolaera.com/#/registration?email=',
-      userEmail = 'firm@invite.com'
-    } = this.props;
+    const { company_name = '', email = '' } = this.props;
 
     return (
       <div
@@ -25,7 +21,7 @@ class FirmInvite extends React.Component {
       >
         <Box className={'firmInvitation'} align="center" width="500px">
           <Item align="left">
-            <p>You have been added to {companyName}'s team on Prolaera!</p>
+            <p>You have been added to {company_name}'s team on Prolaera!</p>
           </Item>
           <Item align="left">
             <p>Your account is waiting for you and there are only a couple quick steps to complete.</p>
@@ -36,18 +32,14 @@ class FirmInvite extends React.Component {
             <p>That's it! You're ready to explore the new tools and resources you have access to.</p>
             <div
               className="buttonContainer"
-              style={{
-                width: '100%',
-                textAlign: 'center',
-                padding: '20px 0px 20px 0px'
-              }}
+              style={{ width: '100%', textAlign: 'center', padding: '20px 0px 20px 0px' }}
             >
               <a
-                href={buttonLink + '/' + userEmail}
+                href={'https://app.prolaera.com/#/registration?email=/' + email}
                 className="accountButton"
                 style={{
                   maxWidth: '200px',
-                  backgroundColor: '#68B63E',
+                  backgroundColor: '#72C02C',
                   padding: '14px 14px 14px 14px',
                   color: 'white',
                   textDecoration: 'none'

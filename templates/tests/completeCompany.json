@@ -1,0 +1,10 @@
+{
+  "company_id": 1234,
+  "company_name": "Example CPA Firm",
+  "external_vendors": ["extVendor 1", "extVendor 2"],
+  "logo": "www.exampleLogoLink.com",
+  "firms": [12, 16, 20],
+  "payees": ["Payee 1", "Payee 2", "Payee 3"],
+  "skin": "exampleSkin",
+  "vendors": ["Vendor 1", "Vendor 2"]
+}

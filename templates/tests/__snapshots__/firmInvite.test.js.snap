@@ -32,7 +32,7 @@ exports[`Firm Invite component creates and checks snapshot of FirmInvite compone
         >
           <p>
             You have been added to 
-            Example Firm
+            Test CPA Firm
             's team on Prolaera!
           </p>
         </td>
@@ -67,10 +67,10 @@ exports[`Firm Invite component creates and checks snapshot of FirmInvite compone
           >
             <a
               className="accountButton"
-              href="www.google.com/jane@doe.com"
+              href="https://app.prolaera.com/#/registration?email=/test@email.com"
               style={
                 Object {
-                  "backgroundColor": "#68B63E",
+                  "backgroundColor": "#72C02C",
                   "color": "white",
                   "maxWidth": "200px",
                   "padding": "14px 14px 14px 14px",

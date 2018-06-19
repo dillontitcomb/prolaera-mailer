@@ -6,14 +6,14 @@ import Footer from '../components/footer';
 import builderHeader from '../components/header';
 import css from './templateCSS.js';
 
-const firmInviteBuilder = async imageUrl => {
+const firmInviteBuilder = async (imageUrl, completeUser, completeCompany) => {
   try {
     const Header = await builderHeader(imageUrl);
     return renderEmail(
       <Email title="" headCSS={css}>
         <Header />
         <InviteSubHeader />
-        <FirmInvite />
+        <FirmInvite {...completeUser} {...completeCompany} />
         <Footer />
       </Email>
     );

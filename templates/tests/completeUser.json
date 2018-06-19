@@ -1,0 +1,19 @@
+{
+  "first": "John",
+  "last": "Doe",
+  "email": "john@doe.com",
+  "profile_uid": "testUserId",
+  "company_id": "testCompanyId",
+  "admin": true,
+  "author": true,
+  "firstLogin": true,
+  "invited": true,
+  "error": "testError",
+  "gettingStarted": false,
+  "department": ["testDept1", "testDept2", "testDept3"],
+  "locations": ["testLocation1", "testLocation2", "testLocation3"],
+  "practices": ["testPractices1", "testPractices2", "testPractices3"],
+  "level": "testLevel",
+  "signup": true,
+  "archived": true
+}
