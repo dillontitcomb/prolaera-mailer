@@ -1,12 +1,13 @@
 import Enzyme, { shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import fs from 'fs';
 import React from 'react';
 import renderer from 'react-test-renderer';
 import FirmInvite from '../../components/firmInvite/firmInvite';
+import writeFile from '../../lib/writeFileHelper';
 import firmInviteBuilder from '../firmInviteBuilder';
 
 Enzyme.configure({ adapter: new Adapter() });
+const htmlFileName = 'firmInviteTest.html';
 const user = { email: 'test@email.com' };
 const company = { company_name: 'Test CPA Firm' };
 
@@ -17,7 +18,7 @@ describe('create html test file', () => {
       user,
       company
     );
-    const saved = await writeFile(firmInviteEmail);
+    const saved = await writeFile(firmInviteEmail, htmlFileName);
     expect(saved).toEqual(true);
   });
 });
@@ -51,15 +52,3 @@ describe('Firm Invite component', () => {
     expect(wrapper.contains(<p>You have been added to Test CPA Firm's team on Prolaera!</p>)).toBe(true);
   });
 });
-
-async function writeFile(emailHtml) {
-  return new Promise((resolve, reject) => {
-    fs.writeFile(`${__dirname}/firmInviteTest.html`, emailHtml, err => {
-      if (err) {
-        console.log(err);
-        reject(err);
-      }
-      resolve(true);
-    });
-  });
-}
