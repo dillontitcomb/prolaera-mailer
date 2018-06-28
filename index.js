@@ -13,8 +13,8 @@ import userComplaince from './templates/builders/userCompliance';
 const engine = async event => {
   const { body } = event;
   switch (body.template) {
-    case 'userComplaince':
-      const email = await userComplaince(body.completeCompliance, body.imageUrl);
+    case 'userCompliance':
+      const email = await userCompliance(body.completeCompliance, body.imageUrl);
       return email;
 
     case 'activityAssigned':
